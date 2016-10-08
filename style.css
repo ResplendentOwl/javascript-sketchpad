@@ -1,0 +1,26 @@
+* {
+  box-sizing:border-box;
+}
+
+button {
+  display: block;
+  position: relative;
+  width: 120px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+
+.gridContainer {
+  width:480px;
+  height:auto;
+  border: none;
+  background-color: transparent;
+}
+
+div .grid {
+  display: inline-block;
+  background-color:grey;
+  width: 120px;
+  height: 120px;
+  border: 1px solid;
+}
