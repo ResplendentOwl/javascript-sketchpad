@@ -10,6 +10,9 @@ $(document).ready(function() {
     var gridDimension = 480/size;
     $('div .grid').css('width', gridDimension);
     $('div .grid').css('height', gridDimension);
+    $('.grid').on('mouseenter', function()  {
+      $(this).css('background-color', '#6313db');
+    });
   };
 
   $('button').click(function()  {
@@ -23,11 +26,8 @@ $(document).ready(function() {
 
   createGrid(4);
 
-  $('.grid').on('mouseenter', function()  {
-  
-  $(this).css('background-color', '#6313db');
 
-});
+
 
 
 
