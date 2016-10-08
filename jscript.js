@@ -24,7 +24,7 @@ $(document).ready(function() {
   createGrid(4);
 
   $('.grid').on('mouseenter', function()  {
-  var orgColor = $(this).css('background-color');
+  
   $(this).css('background-color', '#6313db');
 
 });
